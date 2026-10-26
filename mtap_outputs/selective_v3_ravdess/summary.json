@@ -1,0 +1,37 @@
+{
+  "selective_export": "<REPO>/mtap_outputs/selective_v3_ravdess/selective_export",
+  "combined_export": "<REPO>/mtap_outputs/selective_v3_ravdess/combined_export",
+  "analysis": "<REPO>/mtap_outputs/selective_v3_ravdess/analysis",
+  "anchors": {
+    "1": "video_au",
+    "2": "video_au",
+    "3": "video_au",
+    "4": "video_au",
+    "5": "video_au"
+  },
+  "anchor_scores": {
+    "1": {
+      "audio": 0.7038716451657171,
+      "video_au": 0.8470278448337271
+    },
+    "2": {
+      "audio": 0.6926017667574819,
+      "video_au": 0.7395665732159622
+    },
+    "3": {
+      "audio": 0.6678938874172564,
+      "video_au": 0.7515942360679215
+    },
+    "4": {
+      "audio": 0.6437681948335545,
+      "video_au": 0.7189025227813507
+    },
+    "5": {
+      "audio": 0.640141946119125,
+      "video_au": 0.7172587329174016
+    }
+  },
+  "late_fusion": "computed",
+  "n_boot": 10000,
+  "n_hboot": 2000
+}

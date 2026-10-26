@@ -1,0 +1,8 @@
+comparison,model_a,model_b,effect_b_minus_a,n_session_folds,raw_p,ci95_t_low,ci95_t_high,family,note,holm_p
+1,audio_w2v,concatmatched_v2,-0.02354750228085416,5,0.1651592022896734,-0.062099807462926884,0.01500480290121856,historical_seven_posthoc,paired t; exploratory under small and overlapping CV folds,0.4954776068690202
+2,concatmatched_v2,essence_v2,-0.0018685285537566542,5,0.8805623097653287,-0.03427255258551555,0.030535495478002245,historical_seven_posthoc,paired t; exploratory under small and overlapping CV folds,1.0
+3,audio_w2v,concatmatched_au,0.035914431884211305,5,0.004400385249576586,0.018716142213944742,0.05311272155447787,historical_seven_posthoc,paired t; exploratory under small and overlapping CV folds,0.02314296767920901
+4,audio_w2v,essence_au,0.036532785866703874,5,0.0014495518715068212,0.02354760943025892,0.049517962303148824,historical_seven_posthoc,paired t; exploratory under small and overlapping CV folds,0.010146863100547748
+5,concatmatched_au,essence_au,0.0006183539824925699,5,0.9187928107515722,-0.015198826505868667,0.016435534470853806,historical_seven_posthoc,paired t; exploratory under small and overlapping CV folds,1.0
+6,concatmatched_v2,concatmatched_au,0.05946193416506547,5,0.003857161279868168,0.03199564426700984,0.08692822406312109,historical_seven_posthoc,paired t; exploratory under small and overlapping CV folds,0.02314296767920901
+7,essence_v2,essence_au,0.06194881670131469,5,0.010184155446112833,0.02439403334022367,0.09950360006240572,historical_seven_posthoc,paired t; exploratory under small and overlapping CV folds,0.04073662178445133

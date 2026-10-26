@@ -1,0 +1,12 @@
+[
+  {
+    "model_a": "concat_matched_au",
+    "model_b": "concat_matched_au_cmlfaithful",
+    "family": "cmlfaithful_vs_concat_au"
+  },
+  {
+    "model_a": "concat_matched_au_cml",
+    "model_b": "concat_matched_au_cmlfaithful",
+    "family": "cmlfaithful_vs_cml_penalty"
+  }
+]

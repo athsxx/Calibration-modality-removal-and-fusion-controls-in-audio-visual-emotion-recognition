@@ -1,0 +1,9 @@
+{
+  "anchor_rule": "per fold, higher seed-averaged development macro-F1; audio-only wins an exact tie",
+  "tau_rule": "grid 0.30..0.70 step 0.05, maximum development macro-F1, exact ties take the larger tau",
+  "logit_weight": "w multiplies audio-only z/T; ties take the larger w",
+  "qmf": "energy=-logsumexp(z/T); weights=softmax(-energy); z=sum weight*(z/T); no training",
+  "visual_evidence": "video_kept_tokens/32; 0 for zero_video and branch_disabled_video",
+  "late_fusion": "computed",
+  "decision_calibration": "Macro-F1 uses argmax. VRR uses each system's own development temperature. Selective logits in the export are already temperature-scaled, so their raw probabilities are the protocol probabilities."
+}

@@ -1,0 +1,37 @@
+{
+  "selective_export": "<REPO>/mtap_outputs/selective_v3_iemocap/selective_export",
+  "combined_export": "<REPO>/mtap_outputs/selective_v3_iemocap/combined_export",
+  "analysis": "<REPO>/mtap_outputs/selective_v3_iemocap/analysis",
+  "anchors": {
+    "1": "audio_w2v",
+    "2": "audio_w2v",
+    "3": "audio_w2v",
+    "4": "audio_w2v",
+    "5": "audio_w2v"
+  },
+  "anchor_scores": {
+    "1": {
+      "audio_w2v": 0.6008880875672458,
+      "video_au": 0.4334671387434781
+    },
+    "2": {
+      "audio_w2v": 0.5641599380483134,
+      "video_au": 0.39655509887170415
+    },
+    "3": {
+      "audio_w2v": 0.5777374314067049,
+      "video_au": 0.39894751557167707
+    },
+    "4": {
+      "audio_w2v": 0.5929780635159269,
+      "video_au": 0.42046039158451176
+    },
+    "5": {
+      "audio_w2v": 0.5831217395395205,
+      "video_au": 0.44825467785338297
+    }
+  },
+  "late_fusion": "computed",
+  "n_boot": 10000,
+  "n_hboot": 2000
+}

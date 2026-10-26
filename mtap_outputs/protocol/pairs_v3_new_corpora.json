@@ -1,0 +1,87 @@
+[
+  {
+    "model_a": "audio",
+    "model_b": "video_au",
+    "family": "prospective_v3"
+  },
+  {
+    "model_a": "audio",
+    "model_b": "concat_matched_resnet",
+    "family": "prospective_v3"
+  },
+  {
+    "model_a": "audio",
+    "model_b": "essence_resnet",
+    "family": "prospective_v3"
+  },
+  {
+    "model_a": "audio",
+    "model_b": "concat_matched_au",
+    "family": "prospective_v3"
+  },
+  {
+    "model_a": "audio",
+    "model_b": "essence_au",
+    "family": "prospective_v3"
+  },
+  {
+    "model_a": "video_au",
+    "model_b": "concat_matched_resnet",
+    "family": "prospective_v3"
+  },
+  {
+    "model_a": "video_au",
+    "model_b": "essence_resnet",
+    "family": "prospective_v3"
+  },
+  {
+    "model_a": "video_au",
+    "model_b": "concat_matched_au",
+    "family": "prospective_v3"
+  },
+  {
+    "model_a": "video_au",
+    "model_b": "essence_au",
+    "family": "prospective_v3"
+  },
+  {
+    "model_a": "video_resnet",
+    "model_b": "concat_matched_resnet",
+    "family": "prospective_v3"
+  },
+  {
+    "model_a": "video_resnet",
+    "model_b": "essence_resnet",
+    "family": "prospective_v3"
+  },
+  {
+    "model_a": "video_resnet",
+    "model_b": "concat_matched_au",
+    "family": "prospective_v3"
+  },
+  {
+    "model_a": "video_resnet",
+    "model_b": "essence_au",
+    "family": "prospective_v3"
+  },
+  {
+    "model_a": "concat_matched_resnet",
+    "model_b": "essence_resnet",
+    "family": "prospective_v3"
+  },
+  {
+    "model_a": "concat_matched_au",
+    "model_b": "essence_au",
+    "family": "prospective_v3"
+  },
+  {
+    "model_a": "concat_matched_resnet",
+    "model_b": "concat_matched_au",
+    "family": "prospective_v3"
+  },
+  {
+    "model_a": "essence_resnet",
+    "model_b": "essence_au",
+    "family": "prospective_v3"
+  }
+]

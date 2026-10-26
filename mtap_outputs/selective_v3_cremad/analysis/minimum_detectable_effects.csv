@@ -1,0 +1,13 @@
+model_a,model_b,metric,condition,calibration,n_folds,sd_fold_diff,mde,note
+concat_matched_au,selective_cmau,macro_f1,clean,raw,5,0.006517184372813314,0.010834663585159561,
+essence_au,selective_esau,macro_f1,clean,raw,5,0.004477895374714974,0.007444394262799619,
+audio,selective_cmau,macro_f1,clean,raw,5,0.010682104890054679,0.017758744611849824,
+audio,selective_esau,macro_f1,clean,raw,5,0.011920446312865228,0.01981745769286833,
+audio,logit_avg_av,macro_f1,clean,raw,5,0.007586502685390829,0.012612379776611516,
+audio,qmf_av,macro_f1,clean,raw,5,0.006363588616631517,0.010579314303761286,
+concat_matched_au,logit_avg_av,macro_f1,clean,raw,5,0.01591369273529793,0.026456134631360956,
+concat_matched_au,qmf_av,macro_f1,clean,raw,5,0.015702207831749294,0.026104546023119655,
+logit_avg_av,selective_cmau,macro_f1,clean,raw,5,0.011607619477635634,0.01929739054020932,
+logit_avg_av,selective_esau,macro_f1,clean,raw,5,0.010256010320240677,0.017050372551876154,
+qmf_av,selective_cmau,macro_f1,clean,raw,5,0.01153602887079289,0.019178372863766984,
+qmf_av,selective_esau,macro_f1,clean,raw,5,0.01194998979116005,0.019866573020922443,

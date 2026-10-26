@@ -1,0 +1,3 @@
+model_a,model_b,metric,condition,calibration,n_folds,sd_fold_diff,mde,note
+concatmatched_au,concat_matched_au_cmlfaithful,macro_f1,clean,raw,5,0.01582239631251085,0.026304356505894255,
+concat_matched_au_cml,concat_matched_au_cmlfaithful,macro_f1,clean,raw,5,0.008256991281151616,0.013727051075931878,

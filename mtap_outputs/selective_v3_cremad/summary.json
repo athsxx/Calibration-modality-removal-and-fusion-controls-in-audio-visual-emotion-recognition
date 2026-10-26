@@ -1,0 +1,37 @@
+{
+  "selective_export": "<REPO>/mtap_outputs/selective_v3_cremad/selective_export",
+  "combined_export": "<REPO>/mtap_outputs/selective_v3_cremad/combined_export",
+  "analysis": "<REPO>/mtap_outputs/selective_v3_cremad/analysis",
+  "anchors": {
+    "1": "audio",
+    "2": "audio",
+    "3": "audio",
+    "4": "audio",
+    "5": "audio"
+  },
+  "anchor_scores": {
+    "1": {
+      "audio": 0.7370431549391693,
+      "video_au": 0.6446728662190037
+    },
+    "2": {
+      "audio": 0.6902723677031273,
+      "video_au": 0.6428625857382413
+    },
+    "3": {
+      "audio": 0.7436271327274495,
+      "video_au": 0.6659424505095535
+    },
+    "4": {
+      "audio": 0.7308433786169087,
+      "video_au": 0.6478202838145154
+    },
+    "5": {
+      "audio": 0.7535186974540213,
+      "video_au": 0.6601976330236501
+    }
+  },
+  "late_fusion": "computed",
+  "n_boot": 10000,
+  "n_hboot": 2000
+}

@@ -1,0 +1,4 @@
+model_a,model_b,metric,condition,calibration,n_folds,sd_fold_diff,mde,note
+essence_au,essence_au_nodist,macro_f1,clean,raw,5,0.010070172285198754,0.016741421250850253,
+concatmatched_au,essence_au_nodist,macro_f1,clean,raw,5,0.021066006225707364,0.03502173292665174,
+essence_au,concat_matched_au_budget,macro_f1,clean,raw,5,0.019444210375567376,0.03232553600557409,

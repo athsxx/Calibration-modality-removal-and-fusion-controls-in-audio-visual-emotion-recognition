@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.DS_Store
+._*
+
+# Corpora, features, weights and predictions are never committed.
+artifacts*/manifests/
+artifacts*/features/
+artifacts*/checkpoints/
+artifacts*/results/
+artifacts*/reports/
+artifacts*/audio_wav/
+mtap_outputs/exports*/
+mtap_outputs/logs/
+mtap_outputs/figures/
+*.pt
+*.npy
+*.npz
+*.wav
+*.mp4
+*.avi
+*.flv
+*.csv.gz

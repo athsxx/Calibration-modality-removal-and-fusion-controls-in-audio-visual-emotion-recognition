@@ -1,0 +1,2787 @@
+{
+  "format_version": 1,
+  "dataset": "ravdess",
+  "settings": {
+    "combined_from": [
+      "<REPO>/mtap_outputs/exports_ravdess",
+      "<REPO>/mtap_outputs/exports_ravdess",
+      "<REPO>/mtap_outputs/exports_step9_ravdess",
+      "<REPO>/mtap_outputs/exports_step9_ravdess"
+    ],
+    "models": [
+      "concat_matched_au",
+      "essence_au",
+      "essence_au_nodist",
+      "concat_matched_au_budget"
+    ],
+    "split_manifest_sha256": "4353ed30c42f34b7f29badfdbca998fb32674c2e59a0f1e4e92cad5356fb5489",
+    "note": "Copies of the compared models. Source exports were not modified."
+  },
+  "complete": true,
+  "selected_count": 60,
+  "expected_principal_count": 60,
+  "history_unknown_count": 0,
+  "runs": [
+    {
+      "run_id": "concat_matched_fold_1_ravdess_concat_matched_au_seed0",
+      "model": "concat_matched_au",
+      "model_name": "concat_matched",
+      "seed": 0,
+      "fold": 1,
+      "checkpoint_sha256": "4fd5106e89de5a63e130215da76f01d0b794195d14954afc86e6fc8ef402a398",
+      "metrics_sha256": "54956f484b062ad7e15d64f09a8118e7ae27d911eded999892755b8e3c021348",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "6d817aea85d8696e3b8ef21bc27ea96ee67744bb0f8efe9b5ed300b7341cb3f7",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "f74a26607bdf8aa0d407232b86607a6b1bbc28a619abdb29a038dbf3d33e9b80",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.6148489593648907,
+        "uar": 0.6312500000000001,
+        "accuracy": 0.6714285714285714
+      },
+      "reference_macro_f1": 0.6148489593648907,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-09-30T17:35:28.499305+00:00"
+    },
+    {
+      "run_id": "concat_matched_fold_2_ravdess_concat_matched_au_seed0",
+      "model": "concat_matched_au",
+      "model_name": "concat_matched",
+      "seed": 0,
+      "fold": 2,
+      "checkpoint_sha256": "5c958b410d16646354a978af0955500eec318b735abf525ef54b760de86a248b",
+      "metrics_sha256": "ddd7eef1e7bf0343e162ce3f31789b9850cfead0c4734a9cb49a7389700beba5",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "80b5749f8b272fd39546f4e9efb183fc7b3085eea5b26b134d6c27ebaf984658",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "8dcd86b44f9baca917f32fa154caa0e95bb8c78b03bde80212508949071913ff",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.8607911312673218,
+        "uar": 0.88125,
+        "accuracy": 0.8714285714285714
+      },
+      "reference_macro_f1": 0.8607911312673218,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-09-30T17:35:29.589716+00:00"
+    },
+    {
+      "run_id": "concat_matched_fold_3_ravdess_concat_matched_au_seed0",
+      "model": "concat_matched_au",
+      "model_name": "concat_matched",
+      "seed": 0,
+      "fold": 3,
+      "checkpoint_sha256": "bf902b8d2fec95cef524fd3e116b0c0c876f6bde0e4c686915c6a8bcc2ee4852",
+      "metrics_sha256": "569163a114eb49724fb74e1dc36f6ac4530d6d6fcf9394341f540c42aee1dcd7",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "9d95b107cb73cd38270cff51bb2419148f8326a610e5fd2f90c4d184988747a6",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "66fcd0e8c79f3b75b13439eeee760cf765c66e76e35d4694234556ad5947637e",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.7245839436214392,
+        "uar": 0.71875,
+        "accuracy": 0.7714285714285715
+      },
+      "reference_macro_f1": 0.7245839436214392,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-09-30T17:35:30.625764+00:00"
+    },
+    {
+      "run_id": "concat_matched_fold_4_ravdess_concat_matched_au_seed0",
+      "model": "concat_matched_au",
+      "model_name": "concat_matched",
+      "seed": 0,
+      "fold": 4,
+      "checkpoint_sha256": "2ef2782c253c67451b2b1fbd1e9a121e4f8c0e6045807463c29b3f692956daea",
+      "metrics_sha256": "f5a7c7e71a3e16b6d2de2c483e78aba20e2f40132e437d1fcbe69bf8aa53af2f",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "5b496435f0163e1db06b6b4ee01f88c3b2ff4fb00d5135733a4d503369351217",
+          "rows": 112
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "12c1dc0ff4ad8f24f9c8204492ec25d66c441a3c0eff5aed4f8b215e75520f01",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.7121814798741317,
+        "uar": 0.725,
+        "accuracy": 0.7285714285714285
+      },
+      "reference_macro_f1": 0.7121814798741317,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-09-30T17:35:31.623906+00:00"
+    },
+    {
+      "run_id": "concat_matched_fold_5_ravdess_concat_matched_au_seed0",
+      "model": "concat_matched_au",
+      "model_name": "concat_matched",
+      "seed": 0,
+      "fold": 5,
+      "checkpoint_sha256": "03587db2c581c540ad7fb78cce91d5b9a9c10e3ee6fad4b6bfb750b514fb58d6",
+      "metrics_sha256": "d57f775445cc28aa392c51e9c7e970f88ef8eed41283d163cc7ee53de9fc4eb1",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "a5f0d35710f8d501417439fd3f55d362a1b07435c392b87a4f6e37078cc74ed8",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "0c44835cb80adcc59ffce3379037b945530f27b59f20aaee8a780c471a13b4b4",
+          "rows": 896
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.83840180783577,
+        "uar": 0.84375,
+        "accuracy": 0.8303571428571429
+      },
+      "reference_macro_f1": 0.83840180783577,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-09-30T17:35:32.535078+00:00"
+    },
+    {
+      "run_id": "concat_matched_fold_1_ravdess_concat_matched_au_seed1",
+      "model": "concat_matched_au",
+      "model_name": "concat_matched",
+      "seed": 1,
+      "fold": 1,
+      "checkpoint_sha256": "a21f4749166cd734cd004587e96d214d298d1cfae0cfeb6989f42621151007eb",
+      "metrics_sha256": "5f59d0e3cd8257890137e222b3ce155f66cc2f9ea51481201489f70fbd195c4e",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "92b9d7b37267031db9d4e3357d79f6266f064cd90146b38b1c46449a1ab6e5a0",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "227b3dc741d3525c017d6dc146a49ecf0e331e05c69d544993fe83de5092d261",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.729531324725012,
+        "uar": 0.74375,
+        "accuracy": 0.7642857142857142
+      },
+      "reference_macro_f1": 0.729531324725012,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-09-30T17:35:33.476336+00:00"
+    },
+    {
+      "run_id": "concat_matched_fold_2_ravdess_concat_matched_au_seed1",
+      "model": "concat_matched_au",
+      "model_name": "concat_matched",
+      "seed": 1,
+      "fold": 2,
+      "checkpoint_sha256": "228ff59dbaaee6be9a1841d92b20c1242cc79701b16a0e29cd4091c004fa9662",
+      "metrics_sha256": "3635d2be0fffe578b6c15fc3536b47dbc7a10d6f73dd30487f68e3131214318c",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "eff800838d0baa45352fbe7c80d589529fe1d21521b422172777bcf77f84a37e",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "eb0629782fc9510d66b67ad3f116ab027b44ad2ba1f3108109cb09ae89362655",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.8807911312673218,
+        "uar": 0.8999999999999999,
+        "accuracy": 0.8928571428571429
+      },
+      "reference_macro_f1": 0.8807911312673218,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-09-30T17:35:34.439191+00:00"
+    },
+    {
+      "run_id": "concat_matched_fold_3_ravdess_concat_matched_au_seed1",
+      "model": "concat_matched_au",
+      "model_name": "concat_matched",
+      "seed": 1,
+      "fold": 3,
+      "checkpoint_sha256": "a2b44bed9847a792714431e62e66d3968ba3810588150be385af49a73fc56fd1",
+      "metrics_sha256": "76b8a14dd043c04d499c13f5297ccd61648dee5b5a7e7a5c6a53794e3006f25d",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "3f238eede12820e9e1a116e2ecad010263b42632071436a51164543e294e2ce6",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "e88a2453ab999caaf4e0d21e65f936303d390835fd40b0149d67d4182c572910",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.7159701258759749,
+        "uar": 0.75,
+        "accuracy": 0.75
+      },
+      "reference_macro_f1": 0.7159701258759749,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-09-30T17:35:35.346627+00:00"
+    },
+    {
+      "run_id": "concat_matched_fold_4_ravdess_concat_matched_au_seed1",
+      "model": "concat_matched_au",
+      "model_name": "concat_matched",
+      "seed": 1,
+      "fold": 4,
+      "checkpoint_sha256": "3c190688afe3984a6f2613bc43566da52477fc1078c181c9e42052c7929055c6",
+      "metrics_sha256": "8ea66ffe86f44115b8d7fb6d378c5183e2ac1836e4b183c5ee945b06390e326b",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "aaed9222506b00c5261d084ba0b1eee4b0cc9186603101d7582e4c7e3a04af88",
+          "rows": 112
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "7717b1039d4cc33fb6da5727a8540abbbb6ad6148e2f1ee5499840d8ac4f6183",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.7778925043255009,
+        "uar": 0.7875000000000001,
+        "accuracy": 0.7857142857142857
+      },
+      "reference_macro_f1": 0.7778925043255009,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-09-30T17:35:36.251658+00:00"
+    },
+    {
+      "run_id": "concat_matched_fold_5_ravdess_concat_matched_au_seed1",
+      "model": "concat_matched_au",
+      "model_name": "concat_matched",
+      "seed": 1,
+      "fold": 5,
+      "checkpoint_sha256": "6e357cc4f92d72dcd82e2c10907b6207f0be1d74d6d7beff0da35ec25729827d",
+      "metrics_sha256": "9f741a74db4a48fe40d410e170ec907f7d1dccba58a47e758a37ee5c05f15820",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "975c36538336ae8ab56767bd1a3a1188197128718975f01f07d7ce0606130e6d",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "5a09960955ef917edde4735a6e9bf844a137beb7802b1c92773c08cdcd30c947",
+          "rows": 896
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.775238688252387,
+        "uar": 0.7734375,
+        "accuracy": 0.8035714285714286
+      },
+      "reference_macro_f1": 0.775238688252387,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-09-30T17:35:37.077124+00:00"
+    },
+    {
+      "run_id": "concat_matched_fold_1_ravdess_concat_matched_au_seed7",
+      "model": "concat_matched_au",
+      "model_name": "concat_matched",
+      "seed": 7,
+      "fold": 1,
+      "checkpoint_sha256": "c2caf3102f7ee30bbd255fcd32d3673f050a22df27404d9e18fc00fe760895f5",
+      "metrics_sha256": "5ba88bb45bfa175dc6dc0b05dde7d192126dc99211e32af705ce204b4a436706",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "113979f6579312f541404b0cfb0afc304fcff62b13a4e172e37d2e38ab09284d",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "f16a7fec05126aff7c4c336558088589d474d31d6882a87e7bd79965265b85b5",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.741138125440451,
+        "uar": 0.75,
+        "accuracy": 0.7785714285714286
+      },
+      "reference_macro_f1": 0.741138125440451,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-09-30T17:35:37.988994+00:00"
+    },
+    {
+      "run_id": "concat_matched_fold_2_ravdess_concat_matched_au_seed7",
+      "model": "concat_matched_au",
+      "model_name": "concat_matched",
+      "seed": 7,
+      "fold": 2,
+      "checkpoint_sha256": "8b2e55310be876fb2cacb4a92da45c1ce7ae0c6acdbed8c7e736ae5f60f7273c",
+      "metrics_sha256": "d39be11c6981a6a7d0cc4231261b41742ea7b66d221dde886e6235aaf58a9131",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "e499c89fe8bb6aa26fb51b5dea090b9e784422f09359f7889381c6c2865d3dc0",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "8e6d49f214da8fc2fe2412860a85dd7f1aa4f1134468c86c364cf05123f8841e",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.8186717117920517,
+        "uar": 0.8500000000000001,
+        "accuracy": 0.8285714285714286
+      },
+      "reference_macro_f1": 0.8186717117920517,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-09-30T17:35:38.916726+00:00"
+    },
+    {
+      "run_id": "concat_matched_fold_3_ravdess_concat_matched_au_seed7",
+      "model": "concat_matched_au",
+      "model_name": "concat_matched",
+      "seed": 7,
+      "fold": 3,
+      "checkpoint_sha256": "af8d608d5856412272306b87f5e5c231a1d826247f13da5c89b7f400b3e4bc2f",
+      "metrics_sha256": "0b366636d170f5f7558227ce0792c8055420824d78581fd1139b71068cc9e6c0",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "90ecf29d1d4ac1357ad01dc8b7a702a26a83d153370d7e519217c29b88749842",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "d866ccceea086086d30a51dfe9f252686593d50d1adbf967fd14a7d534b83b7b",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.7500321218132731,
+        "uar": 0.75625,
+        "accuracy": 0.8357142857142857
+      },
+      "reference_macro_f1": 0.7500321218132731,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-09-30T17:35:39.836886+00:00"
+    },
+    {
+      "run_id": "concat_matched_fold_4_ravdess_concat_matched_au_seed7",
+      "model": "concat_matched_au",
+      "model_name": "concat_matched",
+      "seed": 7,
+      "fold": 4,
+      "checkpoint_sha256": "fc7c14cf79dccfcd568bf1d643f91ee961480f82f38e9f5a37f119cbff663bda",
+      "metrics_sha256": "39889842ec77d02db9ea434d3e96b3b392526d6b4afe0144724291545784acf8",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "8a2acc2c9d1d2a6f941c9628aded568c8f37684cb4f8f3c810e1b05b2aff3e67",
+          "rows": 112
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "44433502924143364be35c7c7cdd5cc25efa611f8b01c615b1a94565393e0ae5",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.758156552094522,
+        "uar": 0.7875,
+        "accuracy": 0.7714285714285715
+      },
+      "reference_macro_f1": 0.758156552094522,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-09-30T17:35:40.744021+00:00"
+    },
+    {
+      "run_id": "concat_matched_fold_5_ravdess_concat_matched_au_seed7",
+      "model": "concat_matched_au",
+      "model_name": "concat_matched",
+      "seed": 7,
+      "fold": 5,
+      "checkpoint_sha256": "53649760d366dbb7c9c48051a5cfbec50b69e1b1fca026655b691126338364f6",
+      "metrics_sha256": "81196bb1b513ff468a2e5cc155c874bffd7072a5e141fdf73dab6be62ed6bb35",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "2a861646f885d3d67a325378a1df6af13116fd298f55bdcf7ce9997535ae5db9",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "99b0c32ab0d891c93c6badd092a0cf54ec9cb744b2c826f083d458322d3416f3",
+          "rows": 896
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.7039011550247506,
+        "uar": 0.7109375,
+        "accuracy": 0.7053571428571429
+      },
+      "reference_macro_f1": 0.7039011550247506,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-09-30T17:35:41.535687+00:00"
+    },
+    {
+      "run_id": "essence_fold_1_ravdess_essence_au_seed0",
+      "model": "essence_au",
+      "model_name": "essence",
+      "seed": 0,
+      "fold": 1,
+      "checkpoint_sha256": "0b364ace975fa3a31e158017f34fe8f0826220e1dc1ccc8daa831786c11a3c93",
+      "metrics_sha256": "c5a4c6ceb1ba339c7abdbfb08a2d63eb5aef39f824bf568b608e40925bcdfaf2",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "6af51e7e0a0f9316dd3f7f333da75cbb4fdf6759e225ad900ef2195f6d258d93",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "34624e18f1aac553760400963ad203b715fcc33441fd0882c5081c1b965312dc",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.7373361990607483,
+        "uar": 0.75,
+        "accuracy": 0.7714285714285715
+      },
+      "reference_macro_f1": 0.7373361990607483,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-09-30T17:35:42.680363+00:00"
+    },
+    {
+      "run_id": "essence_fold_2_ravdess_essence_au_seed0",
+      "model": "essence_au",
+      "model_name": "essence",
+      "seed": 0,
+      "fold": 2,
+      "checkpoint_sha256": "bf3c2a47571524765c63b0d71bf993ce405cab62c6bee3888e6f61709fcbc592",
+      "metrics_sha256": "fbe19d188aa3a20e5d27b7df81d366c6ee3afc770677ffad7e338f9724009a40",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "a00e041e77f615b2bbf9ff3fb85ddf1b523f81956928bdf7ff24620d60c8b4c5",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "9242d9cac210b3ffb9d56ca71caf02da74884f922af65c20b6a16193c0cedaf0",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.9195238095238095,
+        "uar": 0.9187500000000001,
+        "accuracy": 0.9142857142857143
+      },
+      "reference_macro_f1": 0.9195238095238095,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-09-30T17:35:43.866002+00:00"
+    },
+    {
+      "run_id": "essence_fold_3_ravdess_essence_au_seed0",
+      "model": "essence_au",
+      "model_name": "essence",
+      "seed": 0,
+      "fold": 3,
+      "checkpoint_sha256": "ce0830a4775121aa42897d2c8cd97f59fdf03065d784d05456469623192232da",
+      "metrics_sha256": "bdfb3242ec9e6bfc48a6b203ed2b6e7580b30baae82fd5a2ebc2e63cb598ff7b",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "4716a1ab050fe9ee9fdc91559030f5d52fd8d755b95799905b75e58bb3305d81",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "a4961ff8c85065ce198c99dd8964464289ef6c9bd012a4b8a75995ef7eb36756",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.7765685328185328,
+        "uar": 0.7812499999999999,
+        "accuracy": 0.8142857142857143
+      },
+      "reference_macro_f1": 0.7765685328185328,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-09-30T17:35:45.027326+00:00"
+    },
+    {
+      "run_id": "essence_fold_4_ravdess_essence_au_seed0",
+      "model": "essence_au",
+      "model_name": "essence",
+      "seed": 0,
+      "fold": 4,
+      "checkpoint_sha256": "3b815d4f1d4b2426b4cb5a02752fb2dc4e4b64405735cae91f1e773ad4aa9a4d",
+      "metrics_sha256": "7ef904dcc53c115e683183d215789248d70baa88323db191fcf0ceb5d8e75079",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "4e1f4e1739fbb744c0fccdd1dbafacb707066f09ad4b15c9e7ce20de98e0091a",
+          "rows": 112
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "aa3c840b384684a6b058a0139d06f6cb5e9ebef37b69aa01ce2386740f132ca0",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.7495359700373352,
+        "uar": 0.7437500000000001,
+        "accuracy": 0.7714285714285715
+      },
+      "reference_macro_f1": 0.7495359700373352,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-09-30T17:35:46.183642+00:00"
+    },
+    {
+      "run_id": "essence_fold_5_ravdess_essence_au_seed0",
+      "model": "essence_au",
+      "model_name": "essence",
+      "seed": 0,
+      "fold": 5,
+      "checkpoint_sha256": "56259979fa3895c0bc2d4713078c000bbf9f3b7364ce4d5cda900cdb6e90b088",
+      "metrics_sha256": "c98b798cb8c9738090c7ba217a81cbf1b2a267a89de73e0c9cf38d01806096b9",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "0389123a71f4348ef0f730aaa3f0689003d15f50123777d1cefd4b99c7e227f1",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "8ce20e2d83b00e46da002a98977603bd27b0cd6b9e9622f7c2e709b1165cda30",
+          "rows": 896
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.8694007517536928,
+        "uar": 0.890625,
+        "accuracy": 0.8839285714285714
+      },
+      "reference_macro_f1": 0.8694007517536928,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-09-30T17:35:47.214569+00:00"
+    },
+    {
+      "run_id": "essence_fold_1_ravdess_essence_au_seed1",
+      "model": "essence_au",
+      "model_name": "essence",
+      "seed": 1,
+      "fold": 1,
+      "checkpoint_sha256": "f2ebf83b8fed9b0f73c9145db181edcf5baebbd68e0afe0c69cf3a5ae6aa168d",
+      "metrics_sha256": "026e3f2293d3995564662a2eefc0bd3777271cd5c58b774e9e51167682b268c7",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "f1fb93ef110a4dfa765674f39ede74aadebddf30a9928756a96a8df37501807a",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "4f9ab26bb629b2596164efb1061c0494c2cc8a0394ff395f783e5e17b7d08e25",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.6840698812681572,
+        "uar": 0.6875,
+        "accuracy": 0.7142857142857143
+      },
+      "reference_macro_f1": 0.6840698812681572,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-09-30T17:35:48.339877+00:00"
+    },
+    {
+      "run_id": "essence_fold_2_ravdess_essence_au_seed1",
+      "model": "essence_au",
+      "model_name": "essence",
+      "seed": 1,
+      "fold": 2,
+      "checkpoint_sha256": "a6592d9e6663868831e01f8212d1d93d788ab01244ea1137b5c125e4e611b740",
+      "metrics_sha256": "ed73efa168e4c02596287dfbcb51593be40c00c3098210c871ccd2a2e11d301d",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "0d0cc19fce170bd28a3177c2c6f232b22ef006698ade9b4f8dc5d7b5ea5626ec",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "b522e905edc6522d4010b7ae2593107b4c47b5579ee93417bc0c22a62caf7fc9",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.8468661566936135,
+        "uar": 0.85,
+        "accuracy": 0.8428571428571429
+      },
+      "reference_macro_f1": 0.8468661566936135,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-09-30T17:35:49.524949+00:00"
+    },
+    {
+      "run_id": "essence_fold_3_ravdess_essence_au_seed1",
+      "model": "essence_au",
+      "model_name": "essence",
+      "seed": 1,
+      "fold": 3,
+      "checkpoint_sha256": "075466e3e0e55177cad573eb5cf21eb0c783a3bd29819f5092a4e91cd0e911f2",
+      "metrics_sha256": "d3cfcf3d03da33e3bb3631f4049a6c06844fa9714563ead5511f2cc648d10897",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "74ecf202b9ab2ae0c2ea2c573fcdc7aef43ae832862ef1377e41e3305603f6ae",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "647e393d813a54c117bd91592f6b23957d399d4442f2df8d3b9402a3f75d4127",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.7506671449067431,
+        "uar": 0.7625,
+        "accuracy": 0.7857142857142857
+      },
+      "reference_macro_f1": 0.7506671449067431,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-09-30T17:35:50.682662+00:00"
+    },
+    {
+      "run_id": "essence_fold_4_ravdess_essence_au_seed1",
+      "model": "essence_au",
+      "model_name": "essence",
+      "seed": 1,
+      "fold": 4,
+      "checkpoint_sha256": "8d3191e2f84ef43bb2493aec8d93eb6cde0b7ec0ba4bf0bbdebefef44c176a50",
+      "metrics_sha256": "1bfac84b0b33a888199ee954d51f49e9c480a102db892e24d18f2ba5fd6f09e3",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "610be6716f4441519557ae8413db8c25d4043d1c7ef6ec8e8bccf01ffa3d5fad",
+          "rows": 112
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "e64d0c11b1e2e20fda63739a212c3ca4a2970793bce689d6728f355e0bbd08ca",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.7469280485326698,
+        "uar": 0.7562500000000001,
+        "accuracy": 0.7571428571428571
+      },
+      "reference_macro_f1": 0.7469280485326698,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-09-30T17:35:51.832472+00:00"
+    },
+    {
+      "run_id": "essence_fold_5_ravdess_essence_au_seed1",
+      "model": "essence_au",
+      "model_name": "essence",
+      "seed": 1,
+      "fold": 5,
+      "checkpoint_sha256": "5c1da74566e64ab2e01db441f0bbfdac21986a5ba69a1290cdf6ada6e2e8bb19",
+      "metrics_sha256": "feb80fe02588f481a5e751bbdc5099b11bb0911f2102134a6a1346849f142914",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "d7b6ad8fee3b4192e93570d7459e8d39cb1db03ae27b8c4387d643a33a594077",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "e9890cf63eb20b3629db0b2bd98acf9a1a96ccf0e22538ff01f30e195bd9ae30",
+          "rows": 896
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.8331228956228957,
+        "uar": 0.8359375,
+        "accuracy": 0.8482142857142857
+      },
+      "reference_macro_f1": 0.8331228956228957,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-09-30T17:35:52.857463+00:00"
+    },
+    {
+      "run_id": "essence_fold_1_ravdess_essence_au_seed7",
+      "model": "essence_au",
+      "model_name": "essence",
+      "seed": 7,
+      "fold": 1,
+      "checkpoint_sha256": "7f14a31043c094c723d087825be2a96fb490ce1ac7ce7a2673dc767a073e62ce",
+      "metrics_sha256": "93bd0c12ed2ab235cd367540fb77695ff58c27c4697cdfe9a414a631c89dc5ea",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "5adda0302bf35d302c2fc0df4b70cec91753584c94c38e3aeb9ca25d810f286c",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "ae699c978112b6479970e6bc5bb504c925efd6d81ff4f5c345cdf19d3c07db4f",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.6433807346745527,
+        "uar": 0.65,
+        "accuracy": 0.6785714285714286
+      },
+      "reference_macro_f1": 0.6433807346745527,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-09-30T17:35:53.988142+00:00"
+    },
+    {
+      "run_id": "essence_fold_2_ravdess_essence_au_seed7",
+      "model": "essence_au",
+      "model_name": "essence",
+      "seed": 7,
+      "fold": 2,
+      "checkpoint_sha256": "7b8321a7ca411e3a25a126538f02aca0cdae32f50d2a7465a9235ab4f881b867",
+      "metrics_sha256": "9272891d7a9a99cb7b573dd7feb0cbdd55764d852e60ac03ae0d7771b47fa6ab",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "d6df76c4db18c16607c98f01b131bddc669dd5675cc6be820944fbb770d736a5",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "f50729fb5cc879e02d394537c45d627381a1e332c0adca0839ce72902aefa826",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.8895250513671566,
+        "uar": 0.8875,
+        "accuracy": 0.8857142857142857
+      },
+      "reference_macro_f1": 0.8895250513671566,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-09-30T17:35:55.182146+00:00"
+    },
+    {
+      "run_id": "essence_fold_3_ravdess_essence_au_seed7",
+      "model": "essence_au",
+      "model_name": "essence",
+      "seed": 7,
+      "fold": 3,
+      "checkpoint_sha256": "b114f69b83acf5855e30fdbb5ed4fd2b70c178c1b668d6e822eff5e54df80b88",
+      "metrics_sha256": "932b9cd7cb243dade50c6bf4316dbf1ed6eb5717ddfc7563aeacb0000124fa81",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "e752d34dfea656774d826327c52451fd9651a94676dd455495c73861af490219",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "dfdf445f01c250bd4e27013035038d46cdcea437f3b212cb0867304ab32e7262",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.7483830845771144,
+        "uar": 0.7625,
+        "accuracy": 0.7857142857142857
+      },
+      "reference_macro_f1": 0.7483830845771144,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-09-30T17:35:56.333871+00:00"
+    },
+    {
+      "run_id": "essence_fold_4_ravdess_essence_au_seed7",
+      "model": "essence_au",
+      "model_name": "essence",
+      "seed": 7,
+      "fold": 4,
+      "checkpoint_sha256": "357bb14dc1a68d2b22e33b331ea40d182f6a10c89aa9803e8a64c1cfff69f069",
+      "metrics_sha256": "a1dc7e96e26dd1867a0a1c78f08ec15a04de8ebe990bd813f6d0b02d6862488d",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "1c2d400de7c71a044b3ef5c24c0f55b415988f7a4d06810428d29bd986376410",
+          "rows": 112
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "53dfc77d7cabf0d61facf66a3a35e452730433237e6d6177d8e0711d70c045f7",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.7538406651650896,
+        "uar": 0.75625,
+        "accuracy": 0.7714285714285715
+      },
+      "reference_macro_f1": 0.7538406651650896,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-09-30T17:35:57.515120+00:00"
+    },
+    {
+      "run_id": "essence_fold_5_ravdess_essence_au_seed7",
+      "model": "essence_au",
+      "model_name": "essence",
+      "seed": 7,
+      "fold": 5,
+      "checkpoint_sha256": "f1cbc37d78d15902d8a79253c1fed99bf0298e43e9de069161510e07efb2f6a0",
+      "metrics_sha256": "7b97c49020051e9fcf2330af4894d359cd710eb59c724d6120ea14a1840a315e",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "0fc9d7d2bd0a4ded2d6becf8fd3b1b4e6bb10b33e60a0f5f5edfbc4d3f826f8e",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "b73ba687df4a519410a196bd8a12d041287a21d7b5fe634f991d5fb8fd3141d5",
+          "rows": 896
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.8859832683362094,
+        "uar": 0.90625,
+        "accuracy": 0.8928571428571429
+      },
+      "reference_macro_f1": 0.8859832683362094,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-09-30T17:35:58.548071+00:00"
+    },
+    {
+      "run_id": "essence_fold_1_ravdess_essence_au_nodist_seed0",
+      "model": "essence_au_nodist",
+      "model_name": "essence",
+      "seed": 0,
+      "fold": 1,
+      "checkpoint_sha256": "05879a68aa63fc385d0c90225258e87131d0c93e9816f5fdc2f48adb136f2341",
+      "metrics_sha256": "faab697de9f5bb1e4f622c962b19abf7b178256ce3593eae4e82d1e07975b9df",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "d528696a0886f1f6454a213bf9c4ebf215495efa19ce080d4af471c79b279e86",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "6bb0abd638eb0eb2356b3a67d7c5044b63efccfacd5444ff81967c2cc561a67f",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.6992232981391822,
+        "uar": 0.7,
+        "accuracy": 0.75
+      },
+      "reference_macro_f1": 0.6992232981391822,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-10-02T17:24:29.268825+00:00"
+    },
+    {
+      "run_id": "essence_fold_2_ravdess_essence_au_nodist_seed0",
+      "model": "essence_au_nodist",
+      "model_name": "essence",
+      "seed": 0,
+      "fold": 2,
+      "checkpoint_sha256": "6ded71bd8f4fe4be3696896057e9021cd422d5e83978fd3553af6afeaf7e2680",
+      "metrics_sha256": "e7a883917bc277dffd4b99ba5c6ed209022997cf9eff6d00c25fbff11ad57b70",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "7a20fc2f8b2cc5196fff70377bf63afa348f49e413e82c315ceef1f154b29e9e",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "8f4b154401a123199a4196f1fcd77d234ac33fdb5b84f4649261c8b00499670e",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.9018330710497173,
+        "uar": 0.90625,
+        "accuracy": 0.9
+      },
+      "reference_macro_f1": 0.9018330710497173,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-10-02T17:24:30.992916+00:00"
+    },
+    {
+      "run_id": "essence_fold_3_ravdess_essence_au_nodist_seed0",
+      "model": "essence_au_nodist",
+      "model_name": "essence",
+      "seed": 0,
+      "fold": 3,
+      "checkpoint_sha256": "5d45ed297f442c76db40d5697b6cf21bcf8c0c06eebacec0c1b2444798d3030a",
+      "metrics_sha256": "889aa72b156a755818cb3dedecc3ee34cd59501f36e2a806eb7418fe7bd1cffa",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "b8c9acc82618c15fe83fa3da459d8dcf8130167dcc263b6a06996ccc4b5d0873",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "882bb69c68626aacf7d8851d507f06ea86ca4787f06ad88a0bc6d75d2b3cf0d2",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.7665987552347482,
+        "uar": 0.8062499999999999,
+        "accuracy": 0.7928571428571428
+      },
+      "reference_macro_f1": 0.7665987552347482,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-10-02T17:24:32.688796+00:00"
+    },
+    {
+      "run_id": "essence_fold_4_ravdess_essence_au_nodist_seed0",
+      "model": "essence_au_nodist",
+      "model_name": "essence",
+      "seed": 0,
+      "fold": 4,
+      "checkpoint_sha256": "2c255660e9a262a2eeca4268d41bc7853a484ad335bbe8eefedd2705188a5d74",
+      "metrics_sha256": "9202e68d87b5128caeb8409827a200501509bf42a2e164911762a1d94138ec12",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "7ffae32fd1b755a00b73f84d89b663f70a949dc7f4be034214b89ffa7a8c49bd",
+          "rows": 112
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "de32fde1f68f07d1ad99510321f0498d11bc7c8c9db9c6dafada0972411b100d",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.775998195353034,
+        "uar": 0.79375,
+        "accuracy": 0.7857142857142857
+      },
+      "reference_macro_f1": 0.775998195353034,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-10-02T17:24:34.227127+00:00"
+    },
+    {
+      "run_id": "essence_fold_5_ravdess_essence_au_nodist_seed0",
+      "model": "essence_au_nodist",
+      "model_name": "essence",
+      "seed": 0,
+      "fold": 5,
+      "checkpoint_sha256": "32cd04640fd62ab9bceef81fe5383601e513750287198f98601ec0433815817f",
+      "metrics_sha256": "8b53bd357f00a92e7f07d7a9bd6197045f11441ea1681f4e9a18471ea496f186",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "12035de532818a67597cf715b17f69841c0f3a1b85a3dbfbb9678084a6af4357",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "093945054d4540f89eb6cb444c8cbf9f968435916e875699b9ccb5c639939ef5",
+          "rows": 896
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.8759271198836676,
+        "uar": 0.8984375,
+        "accuracy": 0.8839285714285714
+      },
+      "reference_macro_f1": 0.8759271198836676,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-10-02T17:24:35.258188+00:00"
+    },
+    {
+      "run_id": "essence_fold_1_ravdess_essence_au_nodist_seed1",
+      "model": "essence_au_nodist",
+      "model_name": "essence",
+      "seed": 1,
+      "fold": 1,
+      "checkpoint_sha256": "eb03352ada2b959f6e183eb62519d380fa97e2f1419863b7353e69cbc6d0d658",
+      "metrics_sha256": "503a61db75ee10ddd503b3522b3a3e5c24b1e3ea20b7f88191318ed16a25a74a",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "92cf84594380adbe476bacbda89a415f7396c27f7af54690018efa8fde2cd1c2",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "5c59fc3d06a645be1dda9ec1f50fa0fad29386690fc6c08ed63ea8aa3344383e",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.6840698812681572,
+        "uar": 0.6875,
+        "accuracy": 0.7142857142857143
+      },
+      "reference_macro_f1": 0.6840698812681572,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-10-02T17:24:36.411579+00:00"
+    },
+    {
+      "run_id": "essence_fold_2_ravdess_essence_au_nodist_seed1",
+      "model": "essence_au_nodist",
+      "model_name": "essence",
+      "seed": 1,
+      "fold": 2,
+      "checkpoint_sha256": "18ab7238f25e7762561ebb88a74688722bd57d1094ecd0a4b677625f4c8593ea",
+      "metrics_sha256": "47e88a4ac6cbcd483c38180bbdc9871fcee90edc9cf65344a92a27bfd347f03b",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "81d23f0cc0336f25bde221bf0408a9cd18e72b8585b42d073a986de373c3ecc6",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "d3df3bbf925a478f8b6409d91f148c5120c1f2539d6e7d67d9e41a400e9d1bcc",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.8468661566936135,
+        "uar": 0.85,
+        "accuracy": 0.8428571428571429
+      },
+      "reference_macro_f1": 0.8468661566936135,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-10-02T17:24:37.564909+00:00"
+    },
+    {
+      "run_id": "essence_fold_3_ravdess_essence_au_nodist_seed1",
+      "model": "essence_au_nodist",
+      "model_name": "essence",
+      "seed": 1,
+      "fold": 3,
+      "checkpoint_sha256": "207f119e3b95d687b3955bf435b539fff2f376176ee9dca77ed75cf94614a0f1",
+      "metrics_sha256": "b27f79137dccfbb110769a9e980feca3bada58d04ecb9487b36a3a7d0fb03915",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "a7acd8d7bdb0ff594ba0a3e47d976ec361b37c2cea7edd1c81e1c22c2634ff0f",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "d305169e44c4a90d51450039ec4cc04d3e37a6d0c1ceb21ccfa23074d298f114",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.7194738557922636,
+        "uar": 0.7312500000000001,
+        "accuracy": 0.7571428571428571
+      },
+      "reference_macro_f1": 0.7194738557922636,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-10-02T17:24:38.736876+00:00"
+    },
+    {
+      "run_id": "essence_fold_4_ravdess_essence_au_nodist_seed1",
+      "model": "essence_au_nodist",
+      "model_name": "essence",
+      "seed": 1,
+      "fold": 4,
+      "checkpoint_sha256": "735a5998b3aaee4b99c0b0731167bf7b15e38c1a52e4371b4c014263f1c0466d",
+      "metrics_sha256": "c2799064d4f10dfb35522929a6670ddf957d9de818c03cee1c074baaa07c873c",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "68c710f3183acd41758f4d8dfbcc76a7fa53de88a0f6f8ae841e1acef8dcd406",
+          "rows": 112
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "c8ad4ed9143268325941e9a1e886d368739bf72857fa2d7defd083e9911fd66f",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.7631142410015649,
+        "uar": 0.7875000000000001,
+        "accuracy": 0.7785714285714286
+      },
+      "reference_macro_f1": 0.7631142410015649,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-10-02T17:24:39.873850+00:00"
+    },
+    {
+      "run_id": "essence_fold_5_ravdess_essence_au_nodist_seed1",
+      "model": "essence_au_nodist",
+      "model_name": "essence",
+      "seed": 1,
+      "fold": 5,
+      "checkpoint_sha256": "92da638f359ded82d817c458b08b1cfdc0fe36f0960ef45d12b5be06735ec20a",
+      "metrics_sha256": "771941485eb977e647c6e5e9a4bac56b8a8013abccc35084677664638d8f659a",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "2b973ac10c4e3c31dc5696342b70021db7f52be607dee86394242aa9c94c93e3",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "47b8b0079c3b3b974514b25fd9911776c1cafdaec40e5016fe5770aa4a522f61",
+          "rows": 896
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.8636747765361923,
+        "uar": 0.890625,
+        "accuracy": 0.875
+      },
+      "reference_macro_f1": 0.8636747765361923,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-10-02T17:24:40.903153+00:00"
+    },
+    {
+      "run_id": "essence_fold_1_ravdess_essence_au_nodist_seed7",
+      "model": "essence_au_nodist",
+      "model_name": "essence",
+      "seed": 7,
+      "fold": 1,
+      "checkpoint_sha256": "a06782509e4c8ca32c9feee893a7706ab2fc37d1523f80e6ac9a4e8fe89c8063",
+      "metrics_sha256": "0e607a1f0e09f470b6834805e5fa8a32e713b705e290c19c8cfb53b820eb0260",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "4b44e659eb809a76cd5170d3915dbb33709911e98b37151afb418be3a633d77b",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "90f57e52ca3c3d408af2667501db82d307282a9fc89204d9c127872531b92425",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.7304438462444824,
+        "uar": 0.7375,
+        "accuracy": 0.7714285714285715
+      },
+      "reference_macro_f1": 0.7304438462444824,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-10-02T17:24:42.060930+00:00"
+    },
+    {
+      "run_id": "essence_fold_2_ravdess_essence_au_nodist_seed7",
+      "model": "essence_au_nodist",
+      "model_name": "essence",
+      "seed": 7,
+      "fold": 2,
+      "checkpoint_sha256": "389ea31d2a6fafa7434866ca4e451c3792b5c75326b7c6f03e1a63c7ffee56f1",
+      "metrics_sha256": "6ddb1166538a1f3f0fd027549e972c6f3941605972a181ae85bc8ef3e71e6cba",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "d8327a007d12234ee3511c81250f9a691ea4726e225b6319c89b650387463caa",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "81def2488fefec7f633d4b209e7f1a04b11741af924c430751e23966d9cd28a1",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.9116315298747983,
+        "uar": 0.9,
+        "accuracy": 0.9142857142857143
+      },
+      "reference_macro_f1": 0.9116315298747983,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-10-02T17:24:43.260470+00:00"
+    },
+    {
+      "run_id": "essence_fold_3_ravdess_essence_au_nodist_seed7",
+      "model": "essence_au_nodist",
+      "model_name": "essence",
+      "seed": 7,
+      "fold": 3,
+      "checkpoint_sha256": "693ca5639815c46620a98f68d93aedb3880ca930ace141922bcc69eab4045ff0",
+      "metrics_sha256": "ed8cfb87b468d20b00200fc8106185725dec06057d00bd9405bccf6096429deb",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "64593d15ad0b595d3b4ed31dc2980a82d6fb5e74b2a511a891590bb81aa3532a",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "71fab0dcd506f6a4b37c397c5ebaf2c80fa9fb52648560990196aa926c44742e",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.7535474378331741,
+        "uar": 0.7687499999999999,
+        "accuracy": 0.7857142857142857
+      },
+      "reference_macro_f1": 0.7535474378331741,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-10-02T17:24:44.435389+00:00"
+    },
+    {
+      "run_id": "essence_fold_4_ravdess_essence_au_nodist_seed7",
+      "model": "essence_au_nodist",
+      "model_name": "essence",
+      "seed": 7,
+      "fold": 4,
+      "checkpoint_sha256": "40cc6ae160b82c3fdf6ea0df5e177c652b0ca05070b393af75727f99afe44c22",
+      "metrics_sha256": "b012518465f7acd1e254e9e8edb4bf4278917db8fad6b3cf5c0a90131271cb46",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "8c38b0d8a0b01868cc2a7b14a393322fcda13bd9f128809009cf4aa4070a2cd9",
+          "rows": 112
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "254c89d4cb60916a9d20ed6f1ca4b59b3924f8eb5f1f3eae3a0bc84187cfb48c",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.7663300932908776,
+        "uar": 0.7625000000000001,
+        "accuracy": 0.7928571428571428
+      },
+      "reference_macro_f1": 0.7663300932908776,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-10-02T17:24:45.568412+00:00"
+    },
+    {
+      "run_id": "essence_fold_5_ravdess_essence_au_nodist_seed7",
+      "model": "essence_au_nodist",
+      "model_name": "essence",
+      "seed": 7,
+      "fold": 5,
+      "checkpoint_sha256": "38a698ebf27b34a0dfd9bf165a8c33254b99a9cb799764ea7a0c06238f58530f",
+      "metrics_sha256": "389c002cbef8bf1d994d7a4e7faf5faf8c6ad2a62513a700b61a97864b87564d",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "98be382c8f97f3aa7c5a134cb310354101ff02bae3e78afd3cf4d4de1585e7d9",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "6bc4419d2ba7c3ddb858448062d68d698ac46e467d435ac9dffe48d284154221",
+          "rows": 896
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.8217389538661468,
+        "uar": 0.8203125,
+        "accuracy": 0.8125
+      },
+      "reference_macro_f1": 0.8217389538661468,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-10-02T17:24:46.575533+00:00"
+    },
+    {
+      "run_id": "concat_matched_fold_1_ravdess_concat_matched_au_budget_seed0",
+      "model": "concat_matched_au_budget",
+      "model_name": "concat_matched",
+      "seed": 0,
+      "fold": 1,
+      "checkpoint_sha256": "1e03fb2438593bba4768f91a05efe1deb94ed87edc64334c772ddb345cb50313",
+      "metrics_sha256": "a31204a7bb6fd0b10641013acdcc053c91371798d7de933efbd7e94fd5daf717",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "65676536f3cf4a4ac0ea9782967cb2f5eeff985073a49d65e33a656c68530425",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "432e571c6f7d25e6cba4a13e293926e82ac99b2c6106db96ee6e79876e33954a",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.7464677177177177,
+        "uar": 0.7437499999999999,
+        "accuracy": 0.7642857142857142
+      },
+      "reference_macro_f1": 0.7464677177177177,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-10-02T17:24:47.387639+00:00"
+    },
+    {
+      "run_id": "concat_matched_fold_2_ravdess_concat_matched_au_budget_seed0",
+      "model": "concat_matched_au_budget",
+      "model_name": "concat_matched",
+      "seed": 0,
+      "fold": 2,
+      "checkpoint_sha256": "724a546f516a0e045a780249bc72d43d0574c403f500436ca60f7e78e2326c72",
+      "metrics_sha256": "b683bdcd3f6296fda519f6711797d4532188c62cf79017570c4d592dbcea55a0",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "d8c19be2dee4c5db22ea9eb33e257c8b717941c0edacbd0a993f065f2654fef5",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "f2bc8d1a671df0f01475a236f9bf2644cbf71f1b8ffd293832199ce85d9b3588",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.7963879180223062,
+        "uar": 0.775,
+        "accuracy": 0.8214285714285714
+      },
+      "reference_macro_f1": 0.7963879180223062,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-10-02T17:24:48.191775+00:00"
+    },
+    {
+      "run_id": "concat_matched_fold_3_ravdess_concat_matched_au_budget_seed0",
+      "model": "concat_matched_au_budget",
+      "model_name": "concat_matched",
+      "seed": 0,
+      "fold": 3,
+      "checkpoint_sha256": "fc44843e6ef10a2a325159a73561b2b24be3ea599d65f15ab94800303612bc26",
+      "metrics_sha256": "30a5ca4ed4d4034ed4f24bac3c5d03778994e5f279fd0b64777d4bb86ef6529d",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "b4640f0b8bf9a2bc22cdd3edc642fa0574bb0141fb1267f50d9335338068e2e8",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "c16de90582e8bfaf55443dd3fe526f9676e6547dbde7dd95123b3066d0affb8c",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.7445192933897753,
+        "uar": 0.7437499999999999,
+        "accuracy": 0.8
+      },
+      "reference_macro_f1": 0.7445192933897753,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-10-02T17:24:48.997105+00:00"
+    },
+    {
+      "run_id": "concat_matched_fold_4_ravdess_concat_matched_au_budget_seed0",
+      "model": "concat_matched_au_budget",
+      "model_name": "concat_matched",
+      "seed": 0,
+      "fold": 4,
+      "checkpoint_sha256": "da84f8094d5ae30295428b3bf5c9670a10996567312c88db301b48147711d963",
+      "metrics_sha256": "f1b4fca7cf92a10b63882c71d22b4053174d3132a3ddee9a06071eafea042c6b",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "734beeedf7fdf0b7a251d84749e100205c286e6633037d0a472c8e2cc6d84a65",
+          "rows": 112
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "370646d840c997e6cb9146de3c8951f748c43d56bfd61aa52eef9f238e71c3bf",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.676997347028403,
+        "uar": 0.6812500000000001,
+        "accuracy": 0.7
+      },
+      "reference_macro_f1": 0.676997347028403,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-10-02T17:24:49.756339+00:00"
+    },
+    {
+      "run_id": "concat_matched_fold_5_ravdess_concat_matched_au_budget_seed0",
+      "model": "concat_matched_au_budget",
+      "model_name": "concat_matched",
+      "seed": 0,
+      "fold": 5,
+      "checkpoint_sha256": "3a0f00877e74653d33dc990f77d4a3ee091d37d55d6ec672430ef9b5e0342c54",
+      "metrics_sha256": "9a1cea447dd9a5757a7d89739ffafc38d06d139beb4ccd9be5091fd963d8e700",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "39bfdbb9d68dae4a065cf454414a591c7ffd72b6e5c461da3ca2e70fdfd40376",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "828559b499d7e9704ece72be3c358fdbeedb4402601ae75b55baecc83d31c06e",
+          "rows": 896
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.8725270271809865,
+        "uar": 0.8984375,
+        "accuracy": 0.8839285714285714
+      },
+      "reference_macro_f1": 0.8725270271809865,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-10-02T17:24:50.452945+00:00"
+    },
+    {
+      "run_id": "concat_matched_fold_1_ravdess_concat_matched_au_budget_seed1",
+      "model": "concat_matched_au_budget",
+      "model_name": "concat_matched",
+      "seed": 1,
+      "fold": 1,
+      "checkpoint_sha256": "686946c7cff88144d264eec09235f23855f0927da0588baf9a887346a8efbec7",
+      "metrics_sha256": "715592d6c654371addf53d755535012538610b7329a40881b3aaeb2f5cbc2e11",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "146f8072be72b01aa21d48de055e9d88c4e2a3295f01d303c2a41e242a21cba9",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "36c4fc93cf2a9ece829ee812c2200c263413e1e6d90be2121a610ff77f0a14f1",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.7502389841054358,
+        "uar": 0.7500000000000001,
+        "accuracy": 0.7785714285714286
+      },
+      "reference_macro_f1": 0.7502389841054358,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-10-02T17:24:51.263221+00:00"
+    },
+    {
+      "run_id": "concat_matched_fold_2_ravdess_concat_matched_au_budget_seed1",
+      "model": "concat_matched_au_budget",
+      "model_name": "concat_matched",
+      "seed": 1,
+      "fold": 2,
+      "checkpoint_sha256": "eec8d30599d0c6c852069ce2eebe5fabcfdbf1aeaa0aab89f8a114cb8a122293",
+      "metrics_sha256": "dc9540757faaa9f8ba827f4cf4621236e069bb056d497d1cddae8ed5a5077169",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "665b5ae0febfd94438b3408834aabe43a007ce8881094098093d488376b31b51",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "950fac36d2629f1e320b8501be9854ec28ba28e66ad95680ec89cf6e5182a252",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.8849401561564467,
+        "uar": 0.8812499999999999,
+        "accuracy": 0.8785714285714286
+      },
+      "reference_macro_f1": 0.8849401561564467,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-10-02T17:24:52.072223+00:00"
+    },
+    {
+      "run_id": "concat_matched_fold_3_ravdess_concat_matched_au_budget_seed1",
+      "model": "concat_matched_au_budget",
+      "model_name": "concat_matched",
+      "seed": 1,
+      "fold": 3,
+      "checkpoint_sha256": "9eb716fe5c78ae893d06d084405a5c1d1e94820f8414e9c67545d17a8bb23a99",
+      "metrics_sha256": "2a673c13789b01c2511d8931842271a7d1c0ce729d1f9cbc274e2397b04ad139",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "fae0d992a2e97ffa23f3fb846195655c73652a6da1f291b9580d9424977ec9ce",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "5998cb1738fccca57906bba83fa05d40a17b06f8c4c80fdc6d1f19253db88c75",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.6746125651670647,
+        "uar": 0.6749999999999999,
+        "accuracy": 0.7142857142857143
+      },
+      "reference_macro_f1": 0.6746125651670647,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-10-02T17:24:52.878627+00:00"
+    },
+    {
+      "run_id": "concat_matched_fold_4_ravdess_concat_matched_au_budget_seed1",
+      "model": "concat_matched_au_budget",
+      "model_name": "concat_matched",
+      "seed": 1,
+      "fold": 4,
+      "checkpoint_sha256": "e9eb7b24a71413dcbae997cfd4d3de30f6724128b2e3100325f7d5bab2bcd983",
+      "metrics_sha256": "dafa4c48834eb8203c8beaae9f465b98d62c5d6552ad00c62c8751f514b3be73",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "d482d4cbbe41c7f3bbfc8e305b184ce3879e79d4e3d82cc2a3354cf3cfae0b80",
+          "rows": 112
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "e2269a4a57f7f5d84e27c5b4a4316b63bbdb3edb40b6ea48d0b76f54c1fc98a5",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.7409311547296528,
+        "uar": 0.7562500000000001,
+        "accuracy": 0.7571428571428571
+      },
+      "reference_macro_f1": 0.7409311547296528,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-10-02T17:24:53.697750+00:00"
+    },
+    {
+      "run_id": "concat_matched_fold_5_ravdess_concat_matched_au_budget_seed1",
+      "model": "concat_matched_au_budget",
+      "model_name": "concat_matched",
+      "seed": 1,
+      "fold": 5,
+      "checkpoint_sha256": "c33feca96bd55a774e9ff043e2128ff3dfa84c02e9bf36118e7e9232f76544b1",
+      "metrics_sha256": "c1cc8fcc9dc2cb847e393786ecb265715e62117317bec856848ec3297dddb3e3",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "410773faa1410d4297b276f3e8308639aa608ab9704a7cdb78028d38340f67d0",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "652e810f8b34848c4cd6ef8692f3c24a1b83926d8268a409e3ee2897d8724e35",
+          "rows": 896
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.7412477118685994,
+        "uar": 0.75,
+        "accuracy": 0.75
+      },
+      "reference_macro_f1": 0.7412477118685994,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-10-02T17:24:54.407288+00:00"
+    },
+    {
+      "run_id": "concat_matched_fold_1_ravdess_concat_matched_au_budget_seed7",
+      "model": "concat_matched_au_budget",
+      "model_name": "concat_matched",
+      "seed": 7,
+      "fold": 1,
+      "checkpoint_sha256": "84dd928851770c772438dd93763809b527ce6574157d904345f84478f41c9f65",
+      "metrics_sha256": "f29c6d7c5712fda0b159db630c23abe5b746026b6c1ae1f3b5c6189b63b3fa99",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "4720362c0ddaeb9ca1f187dc5e15abdc216197704c05518660e4789c51e4ec5f",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "06dd7e513affb21f73f5a4d47bb098df4d9b60157ab3ac056692840080960907",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.7155583442462612,
+        "uar": 0.71875,
+        "accuracy": 0.75
+      },
+      "reference_macro_f1": 0.7155583442462612,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-10-02T17:24:55.198698+00:00"
+    },
+    {
+      "run_id": "concat_matched_fold_2_ravdess_concat_matched_au_budget_seed7",
+      "model": "concat_matched_au_budget",
+      "model_name": "concat_matched",
+      "seed": 7,
+      "fold": 2,
+      "checkpoint_sha256": "ccdd5bf77096bf4469e7ed959cdf06a41fac3f67740aea43946e7257fd04da99",
+      "metrics_sha256": "915b528ab98907a5a940471ffc262a0477046a79bc1d13613b9035a56775e7d8",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "cd649737cbfdd591ec516acc0809ccfd5862c08435b26d8caf2ca9da9bae10ef",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "90368592f9cd992e9259e3c038b0e4fce26f89806d23b32eb4b0517f5f1907b8",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.8661358578426068,
+        "uar": 0.8875,
+        "accuracy": 0.8785714285714286
+      },
+      "reference_macro_f1": 0.8661358578426068,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-10-02T17:24:55.988137+00:00"
+    },
+    {
+      "run_id": "concat_matched_fold_3_ravdess_concat_matched_au_budget_seed7",
+      "model": "concat_matched_au_budget",
+      "model_name": "concat_matched",
+      "seed": 7,
+      "fold": 3,
+      "checkpoint_sha256": "c011ebd0a30193be91797bcac212a3a9411d3bb169669adbd38386518c9a0c12",
+      "metrics_sha256": "3819e58214d2c4a1c8b467c96af86c17ed022699da42ed481b6221b6e279388b",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "7ebbc50535a84a784ce49d820881d61c943ad6dbcd1607db74a7b019e8aaac79",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "1a3d4c3af0befd6e52b69effd8b5938b881538ec5e047313671c4dcb26d7984b",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.7108189727551321,
+        "uar": 0.7124999999999999,
+        "accuracy": 0.7714285714285715
+      },
+      "reference_macro_f1": 0.7108189727551321,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-10-02T17:24:56.778628+00:00"
+    },
+    {
+      "run_id": "concat_matched_fold_4_ravdess_concat_matched_au_budget_seed7",
+      "model": "concat_matched_au_budget",
+      "model_name": "concat_matched",
+      "seed": 7,
+      "fold": 4,
+      "checkpoint_sha256": "0b69a01e6e49c05990fc2536984c263f6cfe639dfccf9b9d33ba7c03a860d4c6",
+      "metrics_sha256": "0080e57b83463e4670a4f69eb709599f5bd858464c150b2a40acc7ffbbb65ac6",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "fb521041033b5dbb5f32c84dfae0b7f9e9fe76586a281c69d70dd3bfd0480cad",
+          "rows": 112
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "a897a83d6ba1700b04ddc21a01282c1c7e12d20ba5f2714db7e3f58c241d2225",
+          "rows": 1120
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.6673654568210263,
+        "uar": 0.68125,
+        "accuracy": 0.6928571428571428
+      },
+      "reference_macro_f1": 0.6673654568210263,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-10-02T17:24:57.564349+00:00"
+    },
+    {
+      "run_id": "concat_matched_fold_5_ravdess_concat_matched_au_budget_seed7",
+      "model": "concat_matched_au_budget",
+      "model_name": "concat_matched",
+      "seed": 7,
+      "fold": 5,
+      "checkpoint_sha256": "e8284b2cb05728697af6a9370af9d224bffe42d3b42869f9c1de41f40596cea9",
+      "metrics_sha256": "4bfd1c3af87e9c0cf882bacb4400891e0bfd87103407bd41940eef34a81e92b2",
+      "history_status": "eligible",
+      "history_unknown_reasons": [],
+      "conditions": [
+        "clean",
+        "zero_audio",
+        "zero_video",
+        "branch_disabled_audio",
+        "branch_disabled_video",
+        "video_token_loss_25",
+        "video_token_loss_50",
+        "video_token_loss_75"
+      ],
+      "files": {
+        "validation": {
+          "file": "validation_predictions.csv.gz",
+          "sha256": "d61e16ab5ba7bffab0c962202f2d9b61c1ee3306b61a113899a621d4fed14bd0",
+          "rows": 140
+        },
+        "test": {
+          "file": "test_predictions.csv.gz",
+          "sha256": "54115596de131a657ef0fe886bac56a1ba3055e4633c2935af6a8f204ee31cd6",
+          "rows": 896
+        }
+      },
+      "clean_scores": {
+        "macro_f1": 0.8287062544318174,
+        "uar": 0.84375,
+        "accuracy": 0.8392857142857143
+      },
+      "reference_macro_f1": 0.8287062544318174,
+      "parity_absolute_difference": 0.0,
+      "clean_parity_basis": "exact labels and predicted classes by utterance ID, plus aggregate F1",
+      "audio_dir": "audio_w2v",
+      "video_dir": "video_au",
+      "audio_max_tokens": 400,
+      "video_max_tokens": 32,
+      "created": "2026-10-02T17:24:58.264748+00:00"
+    }
+  ],
+  "failures": []
+}

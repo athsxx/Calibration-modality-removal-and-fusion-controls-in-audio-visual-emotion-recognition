@@ -1,0 +1,65 @@
+paths:
+  dataset_root: ".."
+  artifacts_root: "artifacts"
+
+data:
+  task: "emotion4"
+  include_invalid: false
+  emotion4_labels: ["angry", "happy_excited", "neutral", "sad"]
+  distress_proxy:
+    valence_lt: 3.0
+    activation_gt: 3.0
+
+features:
+  audio_backend: "wav2vec2"
+  audio_dir: "audio_w2v"
+  audio_sample_rate: 16000
+  n_mels: 80
+  video_backend: "openface_au"
+  video_dir: "video_au"
+  video_pipeline: v2
+  video_fps: 6.0
+  video_max_frames: 32
+  face_margin: 0.35
+  audio_max_tokens: 400
+  au_batch_size: 32
+
+model:
+  hidden_dim: 256
+  num_heads: 4
+  fusion_layers: 2
+  dropout: 0.2
+  num_classes: 4
+
+training:
+  seed: 42
+  batch_size: 16
+  epochs: 50
+  patience: 8
+  essence_patience: 15
+  learning_rate: 0.0003
+  essence_learning_rate: 0.0001
+  weight_decay: 0.0001
+  grad_clip: 1.0
+  num_workers: 0
+  device: "mps"
+  video_device: "cpu"
+  require_stage2_checkpoint: true
+  max_nonfinite_batches: 1
+  staged:
+    enabled: true
+    stage1_epochs: 12
+    stage1_loss_weights:
+      emotion: 1.0
+      va: 0.2
+      alignment: 0.0
+      orthogonality: 0.0
+      audio_to_video_distillation: 0.0
+      video_to_audio_distillation: 0.0
+  loss_weights:
+    emotion: 1.0
+    va: 0.2
+    alignment: 0.02
+    orthogonality: 0.02
+    audio_to_video_distillation: 0.02
+    video_to_audio_distillation: 0.02

@@ -1,0 +1,17 @@
+[
+  {
+    "model_a": "essence_au",
+    "model_b": "essence_au_nodist",
+    "family": "step9_distillation"
+  },
+  {
+    "model_a": "concatmatched_au",
+    "model_b": "essence_au_nodist",
+    "family": "step9_distillation"
+  },
+  {
+    "model_a": "essence_au",
+    "model_b": "concat_matched_au_budget",
+    "family": "step9_parameter_budget"
+  }
+]

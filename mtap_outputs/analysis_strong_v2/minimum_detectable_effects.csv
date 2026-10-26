@@ -1,0 +1,8 @@
+model_a,model_b,metric,condition,calibration,n_folds,sd_fold_diff,mde,note
+audio_w2v,concatmatched_v2,macro_f1,clean,raw,5,0.031048903115370827,0.051618060913940014,
+concatmatched_v2,essence_v2,macro_f1,clean,raw,5,0.026097256648043,0.04338606675862021,
+audio_w2v,concatmatched_au,macro_f1,clean,raw,5,0.013851001313677612,0.02302695933804279,
+audio_w2v,essence_au,macro_f1,clean,raw,5,0.010457882692282094,0.017385980555745275,
+concatmatched_au,essence_au,macro_f1,clean,raw,5,0.012738696226388868,0.021177778658866647,
+concatmatched_v2,concatmatched_au,macro_f1,clean,raw,5,0.022120549470540582,0.0367748859203637,
+essence_v2,essence_au,macro_f1,clean,raw,5,0.030245528110196516,0.05028246912830636,
